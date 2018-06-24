@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>스무디킹 홈페이지 리디자인 최종- 지우</title>
+	<meta property="og:image" content="title-img.jpg">
+	<meta property="og:title" content="스무디킹 리뉴얼">
+	<meta property="og:description" content="스무디킹의 원래 홈페이지를 새로 리디자인해서 코딩한 홈페이지 입니다.">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+	
+
+	<style>
+
+		body{background: white;}
+		header, section{width: 1200px; margin: auto;}
+		.a{ width: 1200px; margin: auto; position: relative; }
+		#back1{ background: url(); background-size: 100% auto ; height : 190px;}
+		#back2{ background: url(); background-size: 100% auto ; height : 797px;}
+		#back3{ background: url('./img/pattern-04.png'); background-size: 100% auto ; height : 1400px;}
+		#back4{ background: url(); background-size: 100% auto ; height : 860px;}
+		#back5{ background: url(); background-size: 100% auto ; height : 435px;}
+		#back6{ background: url(); background-size: 100% auto ; height : 996px;}
+		#footer7{ background: url(); background-size: 100% auto ; height : 311px;}
+		
+		a:link, a:active, a:visited, a:hover{ text-decoration: none; }
+
+
+		#top-header,{font-family: 'Nanum Gothic', sans-serif; font-weight: normal;}
+		#main-menu a {font-family: 'Nanum Gothic', sans-serif; font-weight: bold; font-size: 17px; color: #db1617;}
+		h1{font-family: 'Nanum Gothic', sans-serif; text-align: center; font-weight: extra-bold; font-size: 23px; color: #e51f47;}
+
+		
+		li{list-style-type: none; float: left;}
+
+		
+
+		
+		 .logo {height: 190px;}
+		 .logo img{height: 150px; float: center; padding-top: 15px; padding-left: 35px;}
+		 #sns{ float: left; margin: 0; padding-top:50px; padding-right: 130px; padding-left: 95px;}
+		 #sns .sns-menu-item{ float: left; width: 60px; height: 70px;}
+		 #sns .sns-menu-item img{height: 45px; }
+		 
+		 #etc { float: right; margin: 0; padding-right:10px; width:380px;  margin-top: -110px;}
+		 #etc li{ float: left; width: 70px; height: 30px;  padding-right: 5px;}
+		 #etc li a{ font-size: 0.6em; }
+
+		 #etc .etc-menu-item{list-style-type: none; float: left; width: 60px; height: 70px; }
+
+
+
+		nav #main-menu{ width:850px; height:50px; float: left; margin: 0; padding-left: 300px; }
+		nav .main-menu-item{float: left; width: 170px; height: 50px;}
+		nav #main-menu a{ display: block; height: 60px; text-align: center; line-height: 54px;}
+
+
+		h5{font-family: 'Nanum Gothic', sans-serif; font-weight: normal;}
+		h4{font-family: 'Nanum Gothic', sans-serif; font-weight: bold;}
+
+		.largeimg {width: 1200px;}
+		.largeimg img{width: 100%;}
+
+		#contents1 h1{line-height: 50px; }
+		.box1-b{width: 440px; height: 250px; border-radius: 1.5%; background-color: #c9acb0; position: absolute; top: 230px; left: 300px;}
+		.box1{width: 440px; height: 250px; border-radius: 1.5%; background-color: white; position: absolute; top: 220px; left: 290px;}
+		.box1 h2 { color: #b11713; font-weight: bold;}
+		.box1 p { color: #b11713; font-weight: normal; font-size: 14px; margin-left: 35px; line-height: 20px;}
+		.box1img1 {position: absolute; top: 245px; left: 400px; transform: rotate(-8deg);}
+		.box1img2 {position: absolute; top: 235px; left: 580px; transform: rotate(8deg);}
+
+		.box2-b{width: 260px; height: 375px; border-radius: 1.5%; background-color: #c9acb0; position: absolute; top: 230px; right: 170px;}
+		.box2{width: 260px; height: 375px; border-radius: 1.5%; background-color: white; position: absolute; top: 220px; right: 180px;}
+		.box2 h2 { color: #b11713; font-weight: bold;}
+		.box2 p { color: #b11713; font-weight: normal; font-size: 14px; margin-left: 35px; line-height: 20px;}
+		.box2img1 {position: absolute; top: 365px; left: 770px;}
+
+		.box3-b{width: 270px; height: 460px; border-radius: 1.5%; background-color: #c9acb0; position: absolute; top: 510px; left:  200px;}
+		.box3{width: 270px; height: 460px; border-radius: 1.5%; background-color: white; position: absolute; top: 500px; left:  190px;}
+		.box3 h2 { color: #b11713; font-weight: bold;}
+		.box3 p { color: #b11713; font-weight: normal; font-size: 14px; margin-left: 35px; line-height: 20px;}
+		.box3img1 {position: absolute; top: 660px; left: 180px;}
+
+		.box4-b{width: 525px; height: 250px; border-radius: 1.5%; background-color: #c9acb0; position: absolute; top: 635px; right: 170px;}
+		.box4{width: 525px; height: 250px; border-radius: 1.5%; background-color: white; position: absolute; top: 625px; right: 180px;}
+		.box4 h2 { color: #b11713; font-weight: bold;}
+		.box4 p { color: #b11713; font-weight: normal; font-size: 14px; margin-left: 35px; line-height: 20px;}
+		.box4img1 {position: absolute; top: 652px; left: 570px; }
+		.box4img2 {position: absolute; top: 640px; left: 790px; }
+
+		.box5-b{width: 270px; height: 220px; border-radius: 1.5%; background-color: #c9acb0; position: absolute; top: 1005px; left:  200px;}
+		.box5{width: 270px; height: 220px; border-radius: 1.5%; background-color: white; position: absolute; top: 995px; left:  190px;}
+		.box5 h2 { color: #b11713; font-weight: bold;}
+		.box5 p { color: #b11713; font-weight: normal; font-size: 14px; margin-left: 35px; line-height: 20px;}
+		.box5img1 {position: absolute; top: 1020px; left: 260px;}
+
+		.box6-b{width: 400px; height: 250px; border-radius: 1.5%; background-color: #c9acb0; position: absolute; top: 920px; left: 505px;}
+		.box6{width: 400px; height: 250px; border-radius: 1.5%; background-color: white; position: absolute; top: 910px; left: 495px;}
+		.box6 h2 { color: #b11713; font-weight: bold;}
+		.box6 p { color: #b11713; font-weight: normal; font-size: 14px; margin-left: 35px; line-height: 20px;}
+		.box6img1 {position: absolute; top: 1010px; left: 690px; }
+		
+		
+
+		#contents2 h1{line-height: 50px; padding-top: 2.5em; text-align: center;}
+		.event{width: 368px; background: #fdf7f8; float: left; margin: 1em; align-items: center;}
+		.eventimg{height: 500px; overflow: hidden;}
+		.eventimg img{width: 100%; top: 50px;}
+		.clear {clear: both;}
+		.event-button{width: 150px; height: 50px; float: right; margin-right: 45px; margin-top: 15px;}
+		.event-button img{width: 100%; }
+
+
+		h2{ height: 30px; padding-left: 1.5em; color: #921917}
+		h3{padding-left: 2em; color: #4d0f0f}
+		h4{font-size: 0.9em;  padding-top: 0.6em;  color: #921917; text-align: center;}
+		h5{font-size: 0.7em;  padding-top: 3.8em;  color: #3f0d0d; text-align: center; line-height: 20px;}
+
+		.sns{width: 1000px; background: red; margin-top: 75px; }
+		.snsimg{width:250px; height: 250px; overflow: hidden; float:left; }
+		.snsimg img{width: 100%; }
+
+		.store{width: 1200px; margin-top: 4em; }
+		.storeimg{width: 850px; }
+		.storeimg img{width: 100%;  }
+		
+	</style>
+</head>
+<body>
+<!-- haeder -->
+    <header>
+    			<div class="top-header" id="back1">
+					<div class="logo">	
+					 <a href="index.html"><img src="./img/logo.jpg">
+					</a>			
+						<ul id="sns">
+							<li class="sns-menu-item">
+								<a href="https://www.instagram.com/smoothieking_kr/" target="_blank">
+									<img src="./img/top-icon-01.png" alt="INSTAGRAM">
+								</a>
+							</li>
+							<li class="sns-menu-item">
+								<a href="https://www.facebook.com/smoothieking.kr/" target="_blank">
+									<img src="./img/top-icon-02.png" alt="FACEBOOK">
+								</a>
+							</li>
+							<li class="sns-menu-item">
+								<a href="https://blog.naver.com/smoothieking_kr" target="_blank">
+									<img src="./img/top-icon-03.png" alt="BLOG">
+								</a>
+							</li>
+							<li class="sns-menu-item">
+								<a href="https://twitter.com/SmoothieKing_kr" target="_blank">
+									<img src="./img/top-icon-04.png" alt="TWITTER">
+								</a>
+							</li>
+						</ul>
+
+					</div>
+					<div id="clear"></div>
+					
+				
+					<div>
+						<ul id="etc">
+							<li class="ect-menu-item">
+								<a href="http://www.smoothieking.co.kr/franchise/franchise_info.do">창업문의</a>
+							</li>
+							<li class="ect-menu-item">
+							<a href="http://www.smoothieking.co.kr/customer/customer_online.do">고객센터</a>
+							</li>
+                       		<li class="ect-menu-item">
+                            <a href="http://www.smoothieking.co.kr/product/product_nutrition_facts_01.do">영양정보</a>
+                        	</li>
+                        	<li class="ect-menu-item">
+							<a href="http://www.smoothieking.co.kr/membership/membership_card_info.do">멤버십등록</a>
+							</li>
+							<li class="ect-menu-item">
+							<a href="#modal_search" data-api="modal">검색</a>
+							</li>
+						</ul>
+					</div>
+					<div id="clear"></div>
+					
+				
+				</div>
+
+
+
+
+			
+			<div id="back2">
+				<hr style="height: 0.05em" color="#db1617">
+				<nav class="top-header">
+					<ul id="main-menu">
+						<li class="main-menu-item">
+							<a href=”index.html”> JOIN </a> 
+						</li>
+						<li class="main-menu-item">
+							<a href=”smoothie.html”> MENU </a>
+						</li>
+						<li class="main-menu-item">
+							<a href=”smoothie.html”> EVENT </a>
+						</li>
+						<li class="main-menu-item"> 
+							<a href=”smoothie.html”> STORE </a> 
+						</li>
+						<li class="main-menu-item"> 
+							<a href=”smoothie.html”> BRAND </a> 
+						</li>
+					</ul>
+					<br><br><br>
+					<hr style="height: 0.05em" color="#db1617">	
+				</nav>
+			
+			<!-- ad -->
+		<div class="largeimg">
+    		<img src="./img/ad-img.jpg" height="600px">
+		</div>
+	</div>
+	</header>
+<!-- haeder -->
+		<section id="contents1">
+		<div class="a" id="back3">
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1>SMOOTHIE KING'S MENU</h1>
+
+			
+			<a href="smoothie.html">
+			<div class="box2-b">
+			</div>
+			<div class="box2">
+				<h2>Bakery</h2>
+				<p>맛이 일품인 직접 베이킹한 빵</p>
+			</div>
+			<div class="box2img1">
+				<img src="./img/bread.png" width="100%">
+			</div>
+			</a>
+
+			<a href="smoothie.html">
+			<div class="box1-b">
+			</div>
+			<div class="box1">
+				<h2>Smoothie</h2>
+				<p>좋은 원재료와 다양한 영양 파우더가 들어간 <br>건강한 스무디를 즐겨보세요!</p>
+			</div>
+			<div class="box1img1">
+				<img src="./img/smootie.png" width="55%">
+			</div>
+			<div class="box1img2">
+				<img src="./img/smoothie2.png" width="40%">
+			</div>
+			</a>
+
+			<a href="smoothie.html">
+			<div class="box3-b">
+			</div>
+			<div class="box3">
+				<h2>Blending Juice</h2>
+				<p>상큼한 과일을 넣고 갈아만든스 <br>신선한 쥬스</p>
+			</div>
+			<div class="box3img1">
+				<img src="./img/juice.png" width="55%">
+			</div>
+			</a>
+
+			<a href="smoothie.html">
+			<div class="box4-b">
+			</div>
+			<div class="box4">
+				<h2>Coffee & Latte</h2>
+				<p>빵과 찰떡궁합인 <br>커피와 라떼</p>
+			</div>
+			<div class="box4img1">
+				<img src="./img/coffee.png" width="100%">
+			</div>
+			<div class="box4img2">
+				<img src="./img/latte.png" width="63.5%">
+			</div>
+			</a>
+
+			<a href="smoothie.html">
+			<div class="box5-b">
+			</div>
+			<div class="box5">
+				<h2>Greek Yogurt</h2>
+				<p>고단백 저지방 요거트</p>
+			</div>
+			<div class="box5img1">
+				<img src="./img/yougrt.png" width="50%">
+			</div>
+			</a>
+
+			<a href="smoothie.html">
+			<div class="box6-b">
+			</div>
+			<div class="box6">
+				<h2>Sandwich</h2>
+				<p>음료만으로 부족하다면 <br>같이 먹기 좋은 맛있는 샌드위치</p>
+			</div>
+			<div class="box6img1">
+				<img src="./img/sandwich.png" width="60%">
+			</div>
+			</a>
+
+
+		</div>
+
+		</section>
+
+		<section id="contents2">
+		<div class="a" id="back4"> 
+		<h1>SMOOTHIE KING'S EVENT</h1>
+
+		
+		<div class="event">
+			<a href="smoothie.html">
+				<div class="eventimg">				
+					<img src="./img/event-1.jpg">
+				</div>
+				<h2>어린이 날은 꼬마버스 타요랑 …</h2>
+				<h3>2018. 05. 05 - 2018. 05. 07 &nbsp; &nbsp;<font size="-0.5px" color="#ed7386">PROMO</font></h3>
+			</a>
+		</div>
+
+		<div class="event">
+			<a href="smoothie.html">
+				<div class="eventimg">
+					<img src="./img/event-2.jpg">
+				</div>
+				<h2>삼성카드 결제시 홀가분 Cha …</h2>
+				<h3>2018. 04. 20 - 2018. 05. 31 &nbsp; &nbsp;<font size="-0.5px" color="#ed7386">PROMO</font></h3>
+			</a>
+		</div>
+
+		<div class="event">
+			<a href="smoothie.html">
+				<div class="eventimg">
+					<img src="./img/event-3.jpg">
+				</div>
+				<h2>스무디킹 평택NCOA점 GRA …</h2>
+				<h3>2018. 05. 02 - 2018. 05. 31 &nbsp; &nbsp; &nbsp;<font size="-0.5px" color="#ed7386">OPEN</font></h3>
+			</a>
+			
+		</div>
+
+		
+		<div class="event-button">
+			<a href="smoothie.html"><img src="./img/event-button.png">
+			</a>
+		</div>
+		
+
+		</div>
+		</section>
+
+		<div class="a" id="back5"> 
+			<br>
+			<br>
+			<br>
+		<h1>SMOOTHIE KING'S STORE</h1>
+		<div class="store">
+			<a href="smoothie.html">
+			<center><div class="storeimg">
+				<img src="./img/store-04.png">
+			</div>
+			</center>
+			</a>
+		</div>
+	</div>
+
+	<div class="a" id="back6"> 
+		<br>
+			<br>
+			<br>
+		<h1>SMOOTHIE KING'S INSTAGRAM</h1>
+		
+		<center>
+			<div class="sns">
+			<a href="https://www.instagram.com/explore/tags/%EC%8A%A4%EB%AC%B4%EB%94%94%ED%82%B9/" target="_blank">
+			<div class="snsimg">
+				<img src="./img/sns-10.jpg">
+			</div>
+			<div class="snsimg">
+				<img src="./img/sns-2.jpg">
+			</div>
+			<div class="snsimg">
+				<img src="./img/sns-3.jpg">
+			</div>
+			<div class="snsimg">
+				<img src="./img/sns-4.jpg">
+			</div>
+			<div class="snsimg">
+				<img src="./img/sns-5.jpg">
+			</div>
+			<div class="snsimg">
+				<img src="./img/sns-6.jpg">
+			</div>
+			<div class="snsimg">
+				<img src="./img/sns-7.jpg">
+			</div>
+			<div class="snsimg">
+				<img src="./img/sns-8.jpg">
+			</div>
+			<div class="snsimg">
+				<img src="./img/sns-9.jpg">
+			</div>
+			<div class="snsimg">
+				<img src="./img/sns-1.jpg">
+			</div>
+			<div class="snsimg">
+				<img src="./img/sns-11.jpg">
+			</div>
+			<div class="snsimg">
+				<img src="./img/sns-12.jpg">
+			</div>
+			</center>
+		</a>
+			
+			<div class="clear"></div>
+		</div>
+	</div>
+<br>
+<br>
+<br>
+	<footer>
+		<div class="a" id="footer7"> 
+		<hr style="height: 0.2em" color="#db1617">
+		<h4>이용약관 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 개인정보취급방침 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 영상정보처리기기 운영 및 관리 지침 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 이메일무단수집거부 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 고객의 소리 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 사이트맵</h4>
+		<h5>사업자등록번호 : 390-81-00218 (우)04793 &nbsp; &nbsp; &nbsp; &nbsp; 스무디킹코리아(주) 대표이사 최성재 &nbsp; &nbsp; &nbsp; &nbsp; 정보관리 책임자 : 이덕휘<br> 서울 성동구 아차산로5길 7 아주디지털타워 7F &nbsp; &nbsp; &nbsp; &nbsp; 대표전화 : 02-550-2300 </h5>
+		<h5 style="color :#845e5e; padding-top: 1.5em;">COPYRIGHT(C) 2016 SMOOTHIEKING KOREA. ALL RIGHTS RESERVED <br> REDESIGN BY. YOON JI WOO</h5>
+
+		
+	</footer>
+
+
+
+
+
+
+</body>
+</html>
